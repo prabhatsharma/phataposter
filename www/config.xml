@@ -2,16 +2,16 @@
 <widget id="com.phonegap.hello-world" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Phata Poster Nikla Hero</name>
     <description>
-        Wallpapers, Ringtones, story, cast of movie... Phata poster Nikla Hero.
+        Wallpapers, ringtones, story, cast of movie... Phata poster Nikla Hero.
     </description>
     <author email="hi.prabhat@gmail.com" href="http://phonegap.com">
-        PhoneGap Team
+        Prabhat Sharma
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
-    <preference name="fullscreen" value="true" />
+    <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="false" />
