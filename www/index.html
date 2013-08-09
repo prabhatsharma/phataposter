@@ -9,7 +9,15 @@
         <link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css" />
 		<script src="scripts/jquery-1.10.2.min.js"></script>
 		<script src="scripts/jquery.mobile-1.3.2.min.js"></script>  
-		<script src="scripts/cordova.js" ="text/javascript"></script>
+		<script type="text/javascript">
+			document.addEventListener("deviceready",onDeviceReady,false);
+			alert("Application started. Awaiting for the device to be aready");
+			function onDeviceReady()
+			{
+				alert("Device is Ready");
+			}
+			
+		</script>
     </head>
     <body>
         <div class="app">
