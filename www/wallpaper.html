@@ -15,32 +15,6 @@
 <!--  		<script type="text/javascript" src="cordova.js"></script> -->
 </head>
 <body>
-<div data-role="page" id="Home">
-
-	<div data-role="header">
-		<h1>PhotoSwipe</h1>
-	</div>
-	
-	
-	<div data-role="content" >	
-		
-		<p>These examples show PhotoSwipe integrated with jQuery Mobile:</p>		
-		
-		<ul data-role="listview" data-inset="true">
-			<li><a href="#gallery">First Gallery</a></li> 
-			<li><a href="#Gallery2">Second Gallery</a></li> 
-		</ul> 
-		
-		<p>PhotoSwipe has also been designed to run stand-alone and can be easily integrated into your non jQuery / jQuery mobile websites:</p>
-		
-		<ul data-role="listview" data-inset="true">
-			<li><a href="01-default.html" target="_blank">Code Computerlove</a></li> 
-		</ul> 
-		
-	</div>
-
-</div>
-
 	<div data-role="page" id="menu" data-add-back-btn="true" class="gallery-page">
 		<div data-role="header">Header</div>
 		<div data-role="content">
@@ -51,14 +25,6 @@
 				<a href="songs.html" data-role="button">Songs</a> 
 				<a href="videos.html" data-role="button">Videos</a>
 			</div>
-			<a href="#gallery" data-role="button" data-theme="b">Check the wallpapers</a>
-		</div>
-	</div>
-	<div data-role="page" class="gallery-page" id="gallery">
-		<div data-role="header">
-			<h1>First Gallery</h1>
-		</div>
-		<div data-role="content">
 			<ul data-role="listview" data-inset="true">
 				<li><a href="#image1" data-rel="dialog" data-transition="slide"><img src="wallpapers/thumb/001.jpg"/></a></li>
 				<li><a href="#image2" data-rel="dialog" data-transition="slide"><img src="wallpapers/thumb/002.jpg"/></a></li>
@@ -72,32 +38,33 @@
 			</ul>
 		</div>
 	</div>
+
 	<div data-role="dialog" id="image1">
-		<div data-role="content"><img src="wallpapers/thumb/001.jpg" width="450"/><a href="#gallery" data-role="button">Back</a></div>
+		<div data-role="content"><img src="wallpapers/thumb/001.jpg" width="450"/><a href="#menu" data-role="button">Back</a></div>
 	</div>
 	<div data-role="dialog" id="image2">
-		<div data-role="content"><img src="wallpapers/thumb/002.jpg" width="450"/><a href="#gallery" data-role="button">Back</a></div>
+		<div data-role="content"><img src="wallpapers/thumb/002.jpg" width="450"/><a href="#menu" data-role="button">Back</a></div>
 	</div>
 	<div data-role="dialog" id="image3">
-		<div data-role="content"><img src="wallpapers/thumb/003.jpg" width="450"/><a href="#gallery" data-role="button">Back</a></div>
+		<div data-role="content"><img src="wallpapers/thumb/003.jpg" width="450"/><a href="#menu" data-role="button">Back</a></div>
 	</div>
 	<div data-role="dialog" id="image4">
-		<div data-role="content"><img src="wallpapers/thumb/004.jpg" width="700"/><a href="#gallery" data-role="button">Back</a></div>
+		<div data-role="content"><img src="wallpapers/thumb/004.jpg" width="700"/><a href="#menu" data-role="button">Back</a></div>
 	</div>
 	<div data-role="dialog" id="image5">
-		<div data-role="content"><img src="wallpapers/thumb/005.jpg" width="700"/><a href="#gallery" data-role="button">Back</a></div>
+		<div data-role="content"><img src="wallpapers/thumb/005.jpg" width="700"/><a href="#menu" data-role="button">Back</a></div>
 	</div>
 	<div data-role="dialog" id="image6">
-		<div data-role="content"><img src="wallpapers/thumb/006.jpg" width="700"/><a href="#gallery" data-role="button">Back</a></div>
+		<div data-role="content"><img src="wallpapers/thumb/006.jpg" width="700"/><a href="#menu" data-role="button">Back</a></div>
 	</div>
 	<div data-role="dialog" id="image7">
-		<div data-role="content"><img src="wallpapers/thumb/007.jpg" width="700"/><a href="#gallery" data-role="button">Back</a></div>
+		<div data-role="content"><img src="wallpapers/thumb/007.jpg" width="700"/><a href="#menu" data-role="button">Back</a></div>
 	</div>
 	<div data-role="dialog" id="image8">
-		<div data-role="content"><img src="wallpapers/thumb/008.jpg" width="700"/><a href="#gallery" data-role="button">Back</a></div>
+		<div data-role="content"><img src="wallpapers/thumb/008.jpg" width="700"/><a href="#menu" data-role="button">Back</a></div>
 	</div>
 	<div data-role="dialog" id="image9">
-		<div data-role="content"><img src="wallpapers/thumb/009.jpg" width="700"/><a href="#gallery" data-role="button">Back</a></div>
+		<div data-role="content"><img src="wallpapers/thumb/009.jpg" width="700"/><a href="#menu" data-role="button">Back</a></div>
 	</div>
 
 </body>
